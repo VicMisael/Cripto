@@ -9,21 +9,17 @@
 
     <ListView
         android:id="@+id/listview_dessert"
-        android:layout_width="256dp"
-        android:layout_height="213dp"
-        android:paddingLeft="@dimen/activity_horizontal_margin"
-        android:paddingTop="@dimen/activity_vertical_margin"
-        android:paddingRight="@dimen/activity_horizontal_margin"
-        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:layout_width="324dp"
+        android:layout_height="251dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.103"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/yourName"
-        app:layout_constraintVertical_bias="0.386" />
+        app:layout_constraintTop_toBottomOf="@+id/currencyName"
+        app:layout_constraintVertical_bias="0.483" />
 
     <EditText
-        android:id="@+id/yourName"
+        android:id="@+id/currencyName"
         android:layout_width="155dp"
         android:layout_height="39dp"
         android:layout_marginTop="36dp"
@@ -71,7 +67,7 @@
         app:layout_constraintVertical_bias="0.499" />
 
     <EditText
-        android:id="@+id/yourName"
+        android:id="@+id/currencyName"
         android:layout_width="123dp"
         android:layout_height="40dp"
         android:layout_marginTop="36dp"
@@ -93,7 +89,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/yourName"
+        app:layout_constraintStart_toEndOf="@+id/currencyName"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.636" />
+        app:layout_constraintVertical_bias="0.6" />
 </androidx.constraintlayout.widget.ConstraintLayout>
