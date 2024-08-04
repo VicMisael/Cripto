@@ -17,7 +17,9 @@ dependencyResolutionManagement {
         google()
         mavenCentral()
     }
+
 }
 
 rootProject.name = "Cripto"
 include(":app")
+

@@ -15,13 +15,13 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/currencyName"
-        app:layout_constraintVertical_bias="0.483" />
+        app:layout_constraintTop_toBottomOf="@+id/yourName"
+        app:layout_constraintVertical_bias="0.476" />
 
     <EditText
         android:id="@+id/currencyName"
-        android:layout_width="155dp"
-        android:layout_height="39dp"
+        android:layout_width="146dp"
+        android:layout_height="56dp"
         android:layout_marginTop="36dp"
         android:ems="10"
         android:inputType="text"
@@ -37,13 +37,15 @@
         android:id="@+id/spinner"
         android:layout_width="174dp"
         android:layout_height="59dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/details"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.177"
+        app:layout_constraintHorizontal_bias="0.168"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/details"
         android:layout_width="258dp"
         android:layout_height="236dp"
         android:text="TextView"
@@ -61,15 +63,15 @@
         android:text="Vote na sua moeda favorita"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.075"
+        app:layout_constraintHorizontal_bias="0.122"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.499" />
+        app:layout_constraintVertical_bias="0.43" />
 
     <EditText
-        android:id="@+id/currencyName"
-        android:layout_width="123dp"
-        android:layout_height="40dp"
+        android:id="@+id/yourName"
+        android:layout_width="143dp"
+        android:layout_height="56dp"
         android:layout_marginTop="36dp"
         android:ems="10"
         android:inputType="text"
@@ -82,14 +84,14 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/save"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Salvar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/currencyName"
+        app:layout_constraintStart_toEndOf="@+id/yourName"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.6" />
+        app:layout_constraintVertical_bias="0.528" />
 </androidx.constraintlayout.widget.ConstraintLayout>
